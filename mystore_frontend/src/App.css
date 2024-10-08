@@ -1,0 +1,115 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.App {
+  display: flex;
+  gap: 15%;
+}
+
+.imagen {
+  width: 300px; /* Cambia el valor al ancho deseado */
+  height: auto;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+label {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+input[type="text"] {
+  font-size: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  background-color: #af4c51;
+  border: none;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.outer-wrapper {
+  background-color: #7777;
+  margin: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.9);
+  min-width: 200px;
+  max-width: 90.4vh;
+  max-height: fit-content;
+}
+.table-wrapper {
+  overflow-y: scroll;
+  overflow-x: scroll;
+  height: fit-content;
+  max-height: 66.4vh;
+
+  margin-top: 22px;
+  margin: 15px;
+  padding-bottom: 20px;
+}
+
+table {
+  min-width: max-content;
+
+  border-collapse: separate;
+  border-spacing: 0px;    
+}
+
+table th{
+  position: sticky; 
+  top: 0px;
+  
+  background-color: #af4c51;
+  color: white;
+  
+  text-align: center;
+  font-size: 18px;
+}
+
+table th, table td {
+  padding: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+table td {
+  font-size: 15px;
+  border: 1px solid rgb(177, 177, 177);
+}
