@@ -7,3 +7,6 @@ docker-compose up
 
 - En el localhost 8081 estará Adminer para administrar la base de datos, o con postman en el puerto 4000.
 - En el localhost 8085 estará el Frontend.
+
+# Nota
+Falta el archivo .env con las variables de entorno para el backend.
